@@ -35,15 +35,17 @@
     <h1>Sobre el autor</h1>
     <p>Soy <a href="https://www.ebenimeli.org/">Enrique Benimeli</a>, profesor de Informática en Secundaria. Si te interesa la educación, la tecnología, la productividad y la organización personal, te invito a visitar un par de blogs en los que escribo de vez en cuando: <a href="https://www.esferatic.com/" target="_blank">Esfera TIC</a> y <a href="https://www.ochoenpunto.com/" target="_blank">Ocho en punto</a>.</p>
 
+        <!--
     <h1>¿Cómo apoyar este proyecto?</h1>
 
     <p>Puedes ayudar a mantener esta herramienta y el blog Esfera TIC <a href="https://ko-fi.com/esferatic">invitándome a un café</a> o adquiriendo alguno de estos libros que te recomiendo leer.</p>
-
+    -->
     <?php include_once("php/books.php") ?>
     
     </div>
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023</div>
 
+    <!--
     <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
 <script>
   kofiWidgetOverlay.draw('esferatic', {
@@ -53,5 +55,6 @@
     'floating-chat.donateButton.text-color': '#fff'
   });
 </script>
+-->
 </body>
 </html>
