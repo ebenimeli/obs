@@ -11,7 +11,8 @@
     <div id="header">
         <div id="menu">
             <a href="index.php" class="selected">Inicio</a> · 
-            <a href="about.php">Acerca de...</a>
+            <a href="about.php">Acerca de...</a> · 
+            <a href="https://www.esferatic.com" target="_blank">Blog</a>
         </div>
     </div>
     <!--

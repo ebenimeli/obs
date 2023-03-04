@@ -10,7 +10,9 @@
     <div id="header">
         <div id="menu">
             <a href="index.php">Inicio</a> · 
-            <a href="about.php" class="selected">Acerca de...</a>
+            <a href="about.php" class="selected">Acerca de...</a> · 
+            <a href="https://www.esferatic.com" target="_blank">Blog</a>
+
         </div>
         <!--<div id="obscounter"></div>-->
     </div>
