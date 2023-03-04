@@ -275,7 +275,7 @@
                     <b>Positivos</b><br/>
                     <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos. " onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
                     <input type="checkbox" value="Presenta todos los trabajos. " onchange="updateText()">Presenta todos los trabajos<br/>
-                    <input type="checkbox" value="Cumple con las indicacionesde los trabajos. " onchange="updateText()">Cumple con las indicacionesde los trabajos<br/>
+                    <input type="checkbox" value="Cumple con las indicaciones de los trabajos. " onchange="updateText()">Cumple con las indicacionesde los trabajos<br/>
                     <input type="checkbox" value="Cuida mucho la presentación de las actividades. " onchange="updateText()">Cuida mucho la presentación de las actividades<br/>
                     <input type="checkbox" value="Siempre entrega las tareas y trabajos en plazo. " onchange="updateText()">Siempre entrega las tareas y trabajos en plazo<br/>
                     <input type="checkbox" value="Las tareas y trabajos demuestran esfuerzo y dedicación. " onchange="updateText()">Las tareas y trabajos demuestran esfuerzo y dedicación<br/>
