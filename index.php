@@ -459,9 +459,7 @@
     
 </div> <!-- end content -->
 
-
-    <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span></div>
-
+    <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · Actualizado: 05.03.2023</div>
 
     <!-- Scripts -->
      <script src="js/obs.js"></script>
