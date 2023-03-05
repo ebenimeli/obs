@@ -27,7 +27,11 @@
     <div id="emptyobs"></div>
     <div class="content">
 
-    <h1>Léeme</h1>
+    <div id="readme-button" class="obsbutton readme" onclick="toggleInfo()">Léeme</div>
+    <br/><br/>
+
+    <div id="info" class="group" style="display: none;">
+
     <img src="images/libreta.png" class="logo"/>
     <!-- https://pixabay.com/es/vectors/cuaderno-de-bocetos-libro-notas-156775/ -->
     <p class="instructions">
@@ -43,8 +47,8 @@
             <li>Si haces clic en <strong>«Nueva observación»</strong> se borrarán todos los campos excepto la lista de observaciones.</li>
         </ul>
     </p>
+</div>
 
-    <hr>
 
     <p>
         <label for="theNumberMin">Número mínimo de caracteres:</label>

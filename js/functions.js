@@ -357,3 +357,19 @@ inputTextT.addEventListener("input", async function() {
   outputTextT.value = jsonResponse.choices[0].text;
 });
 
+/**
+ * Toggle Info (Instructions) Block
+ */
+function toggleInfo() {
+  var info = document.getElementById("info");
+  if (info.style.display === "none") {
+      info.style.display = "block";
+      document.getElementById("readme-button").textContent = "Leído";
+      document.getElementById("readme-button").backgroundColor = "SteelBlue";
+  } else {
+      info.style.display = "none";
+      document.getElementById("readme-button").textContent = "Léeme";
+      document.getElementById("readme-button").backgroundColor = "Red";
+
+    }
+}
