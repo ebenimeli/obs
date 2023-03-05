@@ -6,13 +6,13 @@
     <title>Observaciones de evaluación</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  </head>
-  <body>  
+</head>
+<body>  
     <div id="header">
         <div id="menu">
             <a href="index.php" class="selected">Inicio</a> · 
-            <a href="about.php">Acerca de...</a> · 
-            <a href="https://www.esferatic.com" target="_blank">Blog</a>
+            <a href="https://www.esferatic.com" target="_blank">Blog</a> · 
+            <a href="about.php">Acerca de...</a>
         </div>
     </div>
     <!--
@@ -119,7 +119,7 @@
     <h1>Observación</h1>
 
     <div class="group">
-        <h3>Texto libre</h3>
+        <h3>Mis comentarios</h3>
         <textarea id="freeobs" oninput="updateText()"></textarea>
         <br/>
         <form>
