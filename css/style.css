@@ -26,7 +26,7 @@ body {
 }
 
 /* Grade slider */
-.slider::-webkit-slider-thumb {
+.slider::-webkipt-slider-thumb {
     -webkit-appearance: none;
     width: 20px;
     height: 20px;
@@ -121,6 +121,13 @@ div#obscounter {
 div.content {
     margin-top: 100px;
     text-align: left;
+    background-color: #ADD8E6;
+    padding: 20px;
+
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+
 }
 
 input.slider {
@@ -169,7 +176,6 @@ select {
     vertical-align: text-top;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
-    z-index: 1;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
@@ -177,6 +183,27 @@ select {
 
 textarea#output:hover {
     cursor: grab;
+}
+
+
+meter#progressbar {
+    position: absolute;
+    width: 550px;
+    height: 20px;
+    z-index: 0;
+}
+
+/*
+meter::-webkit-meter-optimum-value {
+    background: green;
+}
+  
+meter::-webkit-meter-high-value {
+    background: red;
+}
+*/
+meter::-webkit-meter-low-value {
+    background: red;
 }
 
 div.leftbox {
@@ -215,6 +242,9 @@ div.group h3 {
     text-align: center;
     cursor: pointer;
     display: inline;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+     border-radius: 10px;
 }
 
 .readme {
@@ -224,6 +254,9 @@ div.group h3 {
 
 #readme-button {
     margin-bottom: 20px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+     border-radius: 10px;
 }
 
 
@@ -334,27 +367,6 @@ table#ratingtable tr td i:hover {
     font-weight: bold;
 }
 
-meter#progressbar {
-    position: relative;
-    width: 550px;
-    height: 20px;
-    z-index: -1;
-}
-
-/*
-meter::-webkit-meter-optimum-value {
-    background: green;
-}
-  
-meter::-webkit-meter-high-value {
-    background: red;
-}
-*/
-meter::-webkit-meter-low-value {
-    background: red;
-}
-
-
 #sticky-box {
     position: fixed;
     top: 0;
@@ -363,6 +375,7 @@ meter::-webkit-meter-low-value {
     background-color: white;
     padding: 10px;
     box-sizing: border-box;
+    z-index: 1;
   }
 
   div#suggestions-container {

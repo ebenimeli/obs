@@ -51,12 +51,9 @@
 
 
     <p>
-        <label for="theNumberMin">Número mínimo de caracteres:</label>
-        <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" />
-    </p>
-    <p>
-        <label for="theNumber">Número máximo de caracteres:</label>
-        <input type="number" step="25" id="nchars" min="100" max="1000" value="300" />
+        <p>Número de caracteres:</p>
+        <p>Mínimo: <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" /></p>
+        <p>Máximo: <input type="number" step="25" id="nchars" min="100" max="1000" value="300" /></p>
     </p>
     <meter id="progressbar" min="0" max="100" value="0" low="25" optimum="75" optimum="90"></meter>
 
@@ -459,16 +456,16 @@
     
 </div> <!-- end content -->
 
-    <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · Actualizado: 05.03.2023</div>
+    <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
+    Actualizado: 2023-03-05 20:31:46</div>
+    <!-- Cmd + Shift + I -->
 
     <!-- Scripts -->
-     <script src="js/obs.js"></script>
+    <script src="js/obs.js"></script>
     <script src="js/functions.js"></script>
     <script src="js/dragandmove.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/buttons.js"></script>
     <script src="js/rating.js"></script>
-
-
 </body>
 </html>

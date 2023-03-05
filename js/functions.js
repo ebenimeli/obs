@@ -135,7 +135,7 @@ function updateText() {
     const listContentP = Array.from(listItemsP).map(item => item.textContent);
     const combinedListP = listContentP.join(" ");
     if(listItemsP.length >0) {
-      msg += "\n[+] " + combinedListP + " ";
+      msg += "\n" + combinedListP + " ";
     }
 
     const listN = document.querySelector("#negative-list");
@@ -143,7 +143,7 @@ function updateText() {
     const listContentN = Array.from(listItemsN).map(item => item.textContent);
     const combinedListN = listContentN.join(" ");
     if(listItemsN.length > 0) {
-      msg += "[—] " + combinedListN + " ";
+      msg += "" + combinedListN + " ";
     }
 
     const listV = document.querySelector("#verb-list");
