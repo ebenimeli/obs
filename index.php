@@ -2,6 +2,14 @@
 <html>
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9RBG8ZLDM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-R9RBG8ZLDM');
+    </script>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <title>Observaciones de evaluación</title>
     <link rel="stylesheet" href="css/style.css">
