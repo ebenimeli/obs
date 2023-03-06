@@ -441,9 +441,4 @@
     Actualizado: 2023-03-06 22:16:24</div>
     <!-- Cmd + Shift + I -->
 
-    <!-- Scripts -->
-    <script src="js/obs.js"></script>
-    <script src="js/functions.js"></script>
-    <script src="js/dragandmove.js"></script>
-    <script src="js/dropdown.js"></script>
-    <script src="js/buttons.js"></script>
+  
