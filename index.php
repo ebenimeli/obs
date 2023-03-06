@@ -59,8 +59,10 @@
 
     <p>
         <p>Número de caracteres:</p>
-        <p>Mínimo: <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" /></p>
-        <p>Máximo: <input type="number" step="25" id="nchars" min="100" max="1000" value="300" /></p>
+        <p>
+            Mínimo: <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" />
+            Máximo: <input type="number" step="25" id="nchars" min="100" max="1000" value="300" />
+        </p>
     </p>
     <meter id="progressbar" min="0" max="100" value="0" low="25" optimum="75" optimum="90"></meter>
 
