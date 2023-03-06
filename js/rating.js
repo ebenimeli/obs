@@ -70,6 +70,7 @@ executeRating("rating_8",rating_08);
 executeRating("rating_9",rating_09);
 executeRating("rating_10",rating_10);
 
+
 /**
  * 
  * @param {*} item 
