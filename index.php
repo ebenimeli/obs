@@ -57,24 +57,21 @@
 </div>
 
 
+<div class="group">
+    <h3>Número de caracteres</h3>
     <p>
-        <p>Número de caracteres:</p>
-        <p>
-            Mínimo: <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" />
-            Máximo: <input type="number" step="25" id="nchars" min="100" max="1000" value="300" />
-        </p>
+        Mínimo: <input type="number" step="10" id="ncharsmin" min="100" max="500" value="100" />
+        Máximo: <input type="number" step="25" id="nchars" min="100" max="1000" value="300" />
     </p>
-    <meter id="progressbar" min="0" max="100" value="0" low="25" optimum="75" optimum="90"></meter>
-
-    <!--
-    <input type="range" min="0" max="500" value="300" class="slider" id="range">
-    <p>Extensión máxima: <span id="maxchars">300</span> caracteres.</p>
-    -->
+    <p>
+        <meter id="progressbar" min="0" max="100" value="0" low="25" optimum="75" optimum="90"></meter>
+    </p>
     <br/><br/>
     <input type="datetime-local" name="datetime" id="datetime">
     <br/><br/>
     <input type="checkbox" id="showdate" onchange="updateText()"> Mostrar fecha en la observación
     <br/>
+    </div>
 
 
     <h1>Datos del alumno</h1>
@@ -88,7 +85,6 @@
         <br/>
         <br/>
      
-
         <div class="slider">
             <label for="fader" id="gradelabel">Calificación</label>
             <input type="range" min="-1" max="10" value="-1" id="grade" step="1" list="gradelist" onchange="updateGrade()">
@@ -192,7 +188,7 @@
 
     <!-- Verbos -->
     <div class="group">
-        <h3 id="h3-negative">Verbos</h3>
+        <h3 id="h3-negative">Aptitudes</h3>
         <input type="checkbox" id="noverb" value="No" onchange="updateText()">No
 
         <select id="verbs" onchange="clearVerbText()">
@@ -461,7 +457,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-06 14:01:44</div>
+    Actualizado: 2023-03-06 22:16:24</div>
     <!-- Cmd + Shift + I -->
 
     <!-- Scripts -->
