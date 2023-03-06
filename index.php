@@ -232,7 +232,7 @@
             <tr>
                 <td>
                     <div id="checkboxes1">
-                    <b>Negativos</b><br/>
+                    <b>Negativos</b><br/><br/>
                     <input type="checkbox" value="Acumula algunos retrasos. " onchange="updateText()">Acumula algunos retrasos<br/>
                     <input type="checkbox" value="Acumula muchos retrasos. " onchange="updateText()">Acumula muchos retrasos<br/>
                     <input type="checkbox" value="Acumula muchas faltas de asistencia. " onchange="updateText()">Acumula muchas faltas de asistencia<br/>
@@ -244,7 +244,7 @@
                 </td>
                 <td>
                     <div id="checkboxes2">
-                    <b>Positivos</b><br/>
+                    <b>Positivos</b><br/><br/>
                     <input type="checkbox" value="Es puntual. " onchange="updateText()">Es puntual<br/>
                     <input type="checkbox" value="Siempre es muy puntual. " onchange="updateText()">Es muy puntual<br/>
                     <input type="checkbox" value="Comunica siempre sus retrasos y faltas de asistencia. " onchange="updateText()">Comunica sus retrasos y faltas de asistencia<br/>
@@ -262,7 +262,7 @@
             <tr>
                 <td>
                     <div id="checkboxes3">
-                    <b>Negativos</b><br/>
+                    <b>Negativos</b><br/><br/>
                     <input type="checkbox" value="Tiene un trabajo por entregar. " onchange="updateText()">Tiene un trabajo por entregar<br/>
                     <input type="checkbox" value="Tiene algunos trabajos por presentar. " onchange="updateText()">Tiene algunos trabajos por presentar<br/>
                     <input type="checkbox" value="No realiza las actividades según las indicaciones. " onchange="updateText()">No realiza las actividades como se indica<br/>
@@ -274,7 +274,7 @@
                 </td>
                 <td>
                     <div id="checkboxes4">
-                    <b>Positivos</b><br/>
+                    <b>Positivos</b><br/><br/>
                     <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos. " onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
                     <input type="checkbox" value="Presenta todos los trabajos. " onchange="updateText()">Presenta todos los trabajos<br/>
                     <input type="checkbox" value="Cumple con las indicaciones de los trabajos. " onchange="updateText()">Cumple con las indicaciones de los trabajos<br/>
