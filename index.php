@@ -20,7 +20,8 @@
         <div id="menu">
             <a href="index.php" class="selected">Inicio</a> · 
             <a href="https://www.esferatic.com" target="_blank">Blog</a> · 
-            <a href="about.php">Acerca de...</a>
+            <a href="about.php">Acerca de...</a> · 
+            <a href="https://twitter.com/esferatic" target="_blank">@esferatic</a>
         </div>
     </div>
     <!--
@@ -465,7 +466,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-05 20:31:46</div>
+    Actualizado: 2023-03-06 14:01:44</div>
     <!-- Cmd + Shift + I -->
 
     <!-- Scripts -->
