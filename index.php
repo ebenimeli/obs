@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-R9RBG8ZLDM"></script>
@@ -42,7 +41,6 @@
     <div id="info" class="group" style="display: none;">
 
     <img src="images/libreta.png" class="logo"/>
-    <!-- https://pixabay.com/es/vectors/cuaderno-de-bocetos-libro-notas-156775/ -->
     <p class="instructions">
         <ul>
             <li>Esta aplicación web es <strong>gratuita</strong>.</li>
@@ -109,11 +107,6 @@
         </div>
         <br/>
         <div id="suggestions-container"></div>
-
-        <!--
-        M <input type="checkbox" id="male" onchange="updateText()">
-        F <input type="checkbox" id="female" onchange="updateText()">
-        -->
     </div>
     
     
@@ -150,7 +143,7 @@
 
     <!-- Aspectos positivos -->
     <div class="group">
-        <h3 id="h3-positive">Aspectos positivos</h3>
+        <h3 id="h3-positive">Aspectos destacables</h3>
             <select id="positive" onchange="clearPositiveText()">
                 <option value="" selected>Selecciona una opción</option>
                 <option>Muestra avance en</option>
@@ -172,7 +165,7 @@
   
     <!-- Aspectos negativos  -->
     <div class="group">
-        <h3 id="h3-negative">Aspectos negativos</h3>
+        <h3 id="h3-negative">Aspectos que puede mejorar</h3>
         <select id="negative" onchange="clearNegativeText()">
                 <option value="" selected>Selecciona una opción</option>
                 <option>Necesita apoyo en</option>
