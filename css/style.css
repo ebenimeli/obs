@@ -60,7 +60,7 @@ img.logo {
 
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 #menu {
@@ -111,7 +111,7 @@ div#obscounter {
     margin-left: 10px;
     padding-top: 5px;
     text-align: left;
-    color: black;   
+    color: black;
 }
 
 #emptyobs {
@@ -126,7 +126,7 @@ div.content {
 
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
-     border-radius: 20px;
+    border-radius: 20px;
 
 }
 
@@ -222,7 +222,7 @@ div.group {
 
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
+    border-radius: 10px;
 
     background-color: #F5F5F5;
 
@@ -246,7 +246,7 @@ div.group h3 {
     display: inline;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 .readme {
@@ -258,7 +258,7 @@ div.group h3 {
     margin-bottom: 20px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 
@@ -276,7 +276,7 @@ div#copy-button:hover {
 textarea {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
+    border-radius: 10px;
 }
 
 textarea#freeobs {
@@ -294,22 +294,22 @@ input[type=datetime-local] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-input[type=text]{
+input[type=text] {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
-     border: 1px solid #2d9fd9;
-     padding-left: 10px;
-     width: 200px;
+    border-radius: 10px;
+    border: 1px solid #2d9fd9;
+    padding-left: 10px;
+    width: 200px;
 }
 
-input[type=number]{
+input[type=number] {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-     border-radius: 10px;
-     border: 1px solid #2d9fd9;
-     padding-left: 10px;
-     width: 50px;
+    border-radius: 10px;
+    border: 1px solid #2d9fd9;
+    padding-left: 10px;
+    width: 50px;
 }
 
 input[type=text]:focus {
@@ -349,7 +349,7 @@ a:hover {
     
 }
 */
-  
+
 .rating__star {
     cursor: pointer;
 }
@@ -378,16 +378,16 @@ table#ratingtable tr td i:hover {
     padding: 10px;
     box-sizing: border-box;
     z-index: 1;
-  }
+}
 
-  div#suggestions-container {
+div#suggestions-container {
     font-size: 12px;
     cursor: pointer;
-  }
+}
 
-  div#translated-div {
+div#translated-div {
     height: 100px;
-  }
+}
 
 #books table a img {
     border: 2px solid white;
@@ -395,10 +395,10 @@ table#ratingtable tr td i:hover {
     text-align: center;
 }
 
- #books a img:hover {
+#books a img:hover {
     border: 2px solid steelblue;
     padding: 2px;
-  }
+}
 
 #books .book-cat {
     text-align: center;

@@ -19,12 +19,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 const inputText = document.getElementById("output");
 const copyButton = document.getElementById("copy-button");
 
-copyButton.addEventListener("click", function() {
+copyButton.addEventListener("click", function () {
   inputText.select();
   document.execCommand("copy");
   playSound("click");
   copyButton.innerHTML = "¡Copiada!";
-  setTimeout(function() {
+  setTimeout(function () {
     copyButton.innerHTML = "Copiar observación";
   }, 2000);
 });
@@ -32,12 +32,12 @@ copyButton.addEventListener("click", function() {
 /** Botón copiar observación */
 const copyButton2 = document.getElementById("copy-button-2");
 
-copyButton2.addEventListener("click", function() {
+copyButton2.addEventListener("click", function () {
   inputText.select();
   document.execCommand("copy");
   playSound("click");
   copyButton2.innerHTML = "¡Copiada!";
-  setTimeout(function() {
+  setTimeout(function () {
     copyButton2.innerHTML = "Copiar observación";
   }, 2000);
 });
@@ -46,32 +46,32 @@ copyButton2.addEventListener("click", function() {
    * Add comment
    */
 const addBtn = document.querySelector("#add-comment");
-addBtn.addEventListener("click", function() {
+addBtn.addEventListener("click", function () {
   const textbox = document.querySelector("#output");
-  if( textbox.value != "" ) {
-      const studentsList = document.querySelector("#students");
-      const studName = document.getElementById("name").value;
-      const studLastName = document.getElementById("lastname").value;
-      const studElement = document.createElement("b");
-      const obsElement = document.createElement("span");
-      studElement.textContent = studName + " " + studLastName + ". ";
-      const newItem = document.createElement("li");
-      newItem.appendChild(studElement);
-      obsElement.textContent = textbox.value;
-      newItem.appendChild(obsElement);
-      studentsList.appendChild(newItem);
-      playSound("add");
+  if (textbox.value != "") {
+    const studentsList = document.querySelector("#students");
+    const studName = document.getElementById("name").value;
+    const studLastName = document.getElementById("lastname").value;
+    const studElement = document.createElement("b");
+    const obsElement = document.createElement("span");
+    studElement.textContent = studName + " " + studLastName + ". ";
+    const newItem = document.createElement("li");
+    newItem.appendChild(studElement);
+    obsElement.textContent = textbox.value;
+    newItem.appendChild(obsElement);
+    studentsList.appendChild(newItem);
+    playSound("add");
   }
 });
 
-document.getElementById("download").addEventListener("click", function() {
+document.getElementById("download").addEventListener("click", function () {
   var list = document.getElementById("students");
   var items = list.getElementsByTagName("li");
   var text = "";
   for (var i = 0; i < items.length; i++) {
     text += (i + 1) + ". " + items[i].textContent + "\n";
   }
-  var blob = new Blob([text], {type: "text/plain"});
+  var blob = new Blob([text], { type: "text/plain" });
   var link = document.createElement("a");
   link.download = "observaciones.txt";
   link.href = URL.createObjectURL(blob);

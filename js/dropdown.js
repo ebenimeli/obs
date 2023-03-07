@@ -38,10 +38,10 @@ function clearNegativeText() {
 }
 
 
-addButton.addEventListener('click', function() {
+addButton.addEventListener('click', function () {
   const selectedOption = select.options[select.selectedIndex].value;
   const inputText = input.value;
-  const item = selectedOption + " " + inputText + ".";  
+  const item = selectedOption + " " + inputText + ".";
   const li = document.createElement('li');
   li.textContent = item;
   list.appendChild(li);
@@ -50,12 +50,12 @@ addButton.addEventListener('click', function() {
 });
 
 const positiveList = document.querySelector("#positive-list");
-positiveList.addEventListener("click", function(event) {
-    if (event.target.tagName === "LI") {
-      event.target.remove();
-      updateText();
-    }
-  });
+positiveList.addEventListener("click", function (event) {
+  if (event.target.tagName === "LI") {
+    event.target.remove();
+    updateText();
+  }
+});
 
 
 /** Aspectos negativos */
@@ -64,10 +64,10 @@ const inputN = document.querySelector('#negative-text');
 const addButtonN = document.querySelector('#add-button-neg');
 const listN = document.querySelector('#negative-list');
 
-addButtonN.addEventListener('click', function() {
+addButtonN.addEventListener('click', function () {
   const selectedOption = selectN.options[selectN.selectedIndex].value;
   const inputText = inputN.value;
-  const item = selectedOption + " " + inputText + ".";  
+  const item = selectedOption + " " + inputText + ".";
   const li = document.createElement('li');
   li.textContent = item;
   listN.appendChild(li);
@@ -76,25 +76,25 @@ addButtonN.addEventListener('click', function() {
 });
 
 const negativeList = document.querySelector("#negative-list");
-negativeList.addEventListener("click", function(event) {
-    if (event.target.tagName === "LI") {
-      event.target.remove();
-      updateText();
-    }
-  });
+negativeList.addEventListener("click", function (event) {
+  if (event.target.tagName === "LI") {
+    event.target.remove();
+    updateText();
+  }
+});
 
-  /** Verbos */
+/** Verbos */
 const selectV = document.querySelector('#verbs');
 const inputV = document.querySelector('#verb-text');
 const addButtonV = document.querySelector('#add-button-verb');
 const listV = document.querySelector('#verb-list');
 const noVerb = document.getElementById("noverb");
 
-addButtonV.addEventListener('click', function() {
+addButtonV.addEventListener('click', function () {
   const selectedOption = selectV.options[selectV.selectedIndex].value;
   const inputText = inputV.value;
   item = "";
-  if(noVerb.checked == true) {
+  if (noVerb.checked == true) {
     item = "No " + selectedOption.toLowerCase() + " " + inputText + ".";
   } else {
     item = selectedOption + " " + inputText + ".";
@@ -107,12 +107,12 @@ addButtonV.addEventListener('click', function() {
 });
 
 const verbList = document.querySelector("#verb-list");
-verbList.addEventListener("click", function(event) {
-    if (event.target.tagName === "LI") {
-      event.target.remove();
-      updateText();
-    }
-  });
+verbList.addEventListener("click", function (event) {
+  if (event.target.tagName === "LI") {
+    event.target.remove();
+    updateText();
+  }
+});
 
 
 function clearVerbText() {
