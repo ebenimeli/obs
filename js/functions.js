@@ -99,6 +99,9 @@ function showSubject() {
         case "Inteligencia Artificial, Programación y Robótica":
           theID = "informatica";
           break;
+        case "Taller de Relaciones Digitales Responsables":
+          theID = "informatica";
+          break;
         default:
           theID = "";
       }

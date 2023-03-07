@@ -99,37 +99,7 @@
         <div id="infomsg"></div>
     </div>
     
-    <div id="informatica" class="group hidden">
-        <h3>Área de Informática</h3>
-        <table>
-            <tr>
-                <td>
-                    <div id="checkboxes5">
-                    <b>Negativos</b><br/><br/>
-                    <input type="checkbox" value="Tiene un trabajo por entregar. " onchange="updateText()">Tiene un trabajo por entregar<br/>
-                    <input type="checkbox" value="Tiene algunos trabajos por presentar. " onchange="updateText()">Tiene algunos trabajos por presentar<br/>
-                    <input type="checkbox" value="No realiza las actividades según las indicaciones. " onchange="updateText()">No realiza las actividades como se indica<br/>
-                    <input type="checkbox" value="No cuida la presentación de actividades. " onchange="updateText()">No cuida la presentación de actividades<br/>
-                    <input type="checkbox" value="No cumple con los plazos de entrega. " onchange="updateText()">No cumple con los plazos de entrega<br/>
-                    <input type="checkbox" value="No dedica tiempo suficiente a los trabajos. " onchange="updateText()">No dedica tiempo suficiente a los trabajos<br/>
-                    <input type="checkbox" value="No planifica bien la realización de trabajos. " onchange="updateText()">No planifica bien la realización de trabajos<br/>
-                    </div>
-                </td>
-                <td>
-                    <div id="checkboxes6">
-                    <b>Positivos</b><br/><br/>
-                    <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos. " onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
-                    <input type="checkbox" value="Presenta todos los trabajos. " onchange="updateText()">Presenta todos los trabajos<br/>
-                    <input type="checkbox" value="Cumple con las indicaciones de los trabajos. " onchange="updateText()">Cumple con las indicaciones de los trabajos<br/>
-                    <input type="checkbox" value="Cuida mucho la presentación de las actividades. " onchange="updateText()">Cuida mucho la presentación de las actividades<br/>
-                    <input type="checkbox" value="Siempre entrega las tareas y trabajos en plazo. " onchange="updateText()">Siempre entrega las tareas y trabajos en plazo<br/>
-                    <input type="checkbox" value="Las tareas y trabajos demuestran esfuerzo y dedicación. " onchange="updateText()">Las tareas y trabajos demuestran esfuerzo y dedicación<br/>
-                    <input type="checkbox" value="Organiza muy bien la realización de trabajos. " onchange="updateText()">Organiza muy bien la realización de trabajos<br/>
-
-                </div>
-                </td>
-            </tr>
-        </table>    </div>
+    <?php include_once("php/subjects/informatica.php") ?>
 
     <h1>Observación</h1>
     <div class="group">
