@@ -99,7 +99,7 @@
         <div id="infomsg"></div>
     </div>
     
-    <?php $chknum =4; ?>
+    <?php $chknum = 6; ?>
     <?php include_once("php/subjects/informatica.php") ?>
     <?php include_once("php/subjects/matematicas.php") ?>
 
@@ -442,7 +442,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-07 20:40:26</div>
+    Actualizado: 2023-03-07 21:50:20</div>
     <!-- Cmd + Shift + I -->
 
   
