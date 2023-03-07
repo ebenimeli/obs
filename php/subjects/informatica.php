@@ -13,12 +13,14 @@
     $obs6v = $obs6;
     $obs7 = "?";
     $obs7v = $obs7;
-    $obs8 = "?";
-    $obs8v = $obs8;
-    $obs9 = "?";
-    $obs9v = $obs9;
-    $obs10 = "?";
-    $obs10v = $obs10;
+
+
+    $obs8 = "Debe practicar más.";
+    $obs8v = "Debe practicar más en casa con el ordenador. ";
+    $obs9 = "Necesita dedicar más tiempo a la programación.";
+    $obs9v = "Necesita dedicar más tiempo al bloque de programación. ";
+    $obs10 = "Necesita aprender a relacionar conceptos y práctica.";
+    $obs10v = "Necesita estudiar más para aprender a relacionar bien los conceptos y su aplicación práctica con el ordenador. ";
     $obs11 = "?";
     $obs11v = $obs11;
     $obs12 = "?";

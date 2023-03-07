@@ -111,7 +111,7 @@ function showSubject() {
 
   if (theID != "") {
     var div = document.getElementById(theID);
-    div.className = "group visible";
+    //div.className = "group visible";
   }
 
   updateHeaders();
