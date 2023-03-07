@@ -1,16 +1,16 @@
 <?php
-    $obs1 = "?";
-    $obs1v = $obs1;
-    $obs2 = "?";
-    $obs2v = $obs2;
-    $obs3 = "?";
-    $obs3v = $obs3;
-    $obs4 = "?";
-    $obs4v = $obs4;
-    $obs5 = "?";
-    $obs5v = $obs5;
-    $obs6 = "?";
-    $obs6v = $obs6;
+    $obs1 = "Muestra interés y curiosidad por el aprendizaje";
+    $obs1v = "Muestra interés y curiosidad por el aprendizaje en el área de informática. ";
+    $obs2 = "Es perseverante con los problemas informáticos";
+    $obs2v = "Es perseverante y tiene paciencia para solucionar los problemas informáticos que se plantean en la asignatura. ";
+    $obs3 = "Muestra creatividad y disposición a experimentar y explorar";
+    $obs3v = "Muestra creatividad y disposición a experimentar y explorar nuevas formas de solucionar problemas informáticos. ";
+    $obs4 = "Demuestra un sentido crítico y reflexivo con la información online. ";
+    $obs4v = "Demuestra un sentido crítico y reflexivo en el análisis de la información y recursos encontrados en línea. ";
+    $obs5 = "Demuestra habilidades de comunicación";
+    $obs5v = "Demuestra habilidades de comunicación clara y efectiva sobre temas informáticos. ";
+    $obs6 = "Es capaz de tomar iniciativa y liderazgo";
+    $obs6v = "Es capaz de tomar iniciativa y liderazgo en los proyectos informáticos cuando sea necesario. ";
     $obs7 = "?";
     $obs7v = $obs7;
 
