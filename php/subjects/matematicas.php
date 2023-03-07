@@ -1,5 +1,5 @@
 <?php
-    $obs1 = "?";
+    $obs1 = "Mates";
     $obs1v = $obs1;
     $obs2 = "?";
     $obs2v = $obs2;
@@ -29,10 +29,9 @@
     $obs14v = $obs14;
 ?>
 
-<div id="informatica" class="group hidden">
-    <h3>Área de Informática</h3>
+<div id="matematicas" class="group hidden">
+    <h3>Área de Matemáticas</h3>
     <?php include("checkboxes.php"); ?>
     <br/>
-    <div id="close-informatica" class="obsbutton close" onclick="closeSubject('informatica')">Cerrar</div>
-
+    <div id="close-matematicas" class="obsbutton close" onclick="closeSubject('matematicas')">Cerrar</div>
 </div>

@@ -102,6 +102,9 @@ function showSubject() {
         case "Taller de Relaciones Digitales Responsables":
           theID = "informatica";
           break;
+        case "Matemáticas":
+          theID = "matematicas";
+          break;
         default:
           theID = "";
       }
@@ -154,8 +157,7 @@ function updateText() {
     if(document.getElementById("ft-start").checked) {
         msg += document.getElementById("freeobs").value + ". ";
         //msg += "\n";
-      }
-
+    }
 
     const listP = document.querySelector("#positive-list");
     const listItemsP = listP.querySelectorAll("li");
@@ -185,9 +187,10 @@ function updateText() {
       msg += document.getElementById("rating_" + i).textContent;
     }
 
-    for (let i = 1; i <= 6; i++) {
+    const ncheckboxes = 8;
+    for (let i = 1; i <= ncheckboxes; i++) {
       strid = "checkboxes"+i.toString();
-      checkboxes_x = document.getElementById(strid);
+      var checkboxes_x = document.getElementById(strid);
       msg += updateCheckboxes(checkboxes_x);     
     }
  
@@ -356,6 +359,7 @@ const options = [
   "Laboratorio",
   "Latín",
   "Lengua",
+  "Matemáticas",
   "Música",
   "Proyecto Interdisciplinar",
   "Religión",
@@ -436,5 +440,10 @@ function toggleInfo() {
       document.getElementById("readme-button").textContent = "Léeme";
       document.getElementById("readme-button").backgroundColor = "Red";
 
+    }}
+
+
+    function closeSubject(name) {
+      var subject = document.getElementById(name);
+      subject.className = "group hidden";
     }
-}

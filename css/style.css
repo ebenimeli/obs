@@ -413,3 +413,8 @@ table#ratingtable tr td i:hover {
 .visible {
     display: "block";
 }
+
+.close {
+    text-align: right;
+    font-size: 10px;
+}

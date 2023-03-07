@@ -99,7 +99,9 @@
         <div id="infomsg"></div>
     </div>
     
+    <?php $chknum =4; ?>
     <?php include_once("php/subjects/informatica.php") ?>
+    <?php include_once("php/subjects/matematicas.php") ?>
 
     <h1>Observación</h1>
     <div class="group">

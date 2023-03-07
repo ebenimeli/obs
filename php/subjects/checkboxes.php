@@ -1,7 +1,8 @@
 <table>
             <tr>
                 <td>
-                    <div id="checkboxes5">
+                    <?php $chknum += 1; ?>    
+                    <div id="checkboxes<?php echo $chknum; ?>">
                     <b>Negativos</b><br/><br/>
                     <input type="checkbox" value="<?php echo $obs1v;?>" onchange="updateText()"><?php echo $obs1; ?><br/>
                     <input type="checkbox" value="<?php echo $obs2v;?>" onchange="updateText()"><?php echo $obs2;?><br/>
@@ -13,7 +14,8 @@
                     </div>
                 </td>
                 <td>
-                    <div id="checkboxes6">
+                <?php $chknum += 1; ?>    
+                <div id="checkboxes<?php echo $chknum?>">
                     <b>Positivos</b><br/><br/>
                     <input type="checkbox" value="<?php echo $obs8v;?>" onchange="updateText()"><?php echo $obs8; ?><br/>
                     <input type="checkbox" value="<?php echo $obs9v;?>" onchange="updateText()"><?php echo $obs9;?><br/>
