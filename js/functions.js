@@ -303,11 +303,44 @@ function animateTextarea() {
 const inputSubject = document.getElementById("subject");
 const suggestionsContainer = document.getElementById("suggestions-container");
 
-const options = ["Informática", "Matemáticas", "Lengua", "Inglés", "Física y Química", 
-"Historia","Geografía e Historia","Inteligencia Artificial, Programación y Robótica",
-"Laboratorio","Valencià","Religión","Taller de Relaciones Digitales Responsables",
-"Biología y Geología","Filosofía","Tecnologías de la Información y la Comunicación",
-"Tecnología y Digitalización","Proyecto Interdisciplinar","Latín","Economía"];
+const options = [
+  "Alemán",
+  "Biología y Geología",
+  "Ciencias aplicadas a la actividad profesional",
+  "Ciencias sociales, geografía e historia",
+  "Cultura clásica",
+  "Economía",
+  "Economía de la Empresa",
+  "Educación física",
+  "Educación plástica, visual y audiovisual",
+  "Educación para la Ciudadanía y los Derechos Humanos",
+  "Ética y valores sociales y cívicos",
+  "Filosofía",
+  "Física y Química",
+  "Formación y orientación laboral",
+  "Francés",
+  "Fotografía y Vídeo",
+  "Geografía e Historia",
+  "Historia",
+  "Historia del Arte",
+  "Informática",
+  "Inglés",
+  "Inteligencia Artificial, Programación y Robótica",
+  "Laboratorio",
+  "Latín",
+  "Lengua",
+  "Música",
+  "Proyecto Interdisciplinar",
+  "Religión",
+  "Robótica",
+  "Taller de Relaciones Digitales Responsables",
+  "Tecnología",
+  "Tecnología y Digitalización",
+  "Tecnologías de la Información y la Comunicación",
+  "Valencià"
+];
+
+
 
 inputSubject.addEventListener("input", function() {
   const value = inputSubject.value;

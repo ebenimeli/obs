@@ -65,7 +65,8 @@
         Asignatura: <input type="text" id="subject" onmouseup="updateHeaders()">
         <br/>
         <br/>
-     
+        <div id="suggestions-container"></div>
+        <br/>
         <div class="slider">
             <label for="fader" id="gradelabel">Calificación</label>
             <input type="range" min="-1" max="10" value="-1" id="grade" step="1" list="gradelist" onchange="updateGrade()">
@@ -84,10 +85,8 @@
                 <option value="10">10</option>
             </datalist>
         </div>
-        <br/>
-        <div id="suggestions-container"></div>
     </div>
-    
+    <br/>
     
     <div id="copy-button" class="obsbutton" onclick="countObs()">Copiar observación</div>
     <div id="new-button" class="obsbutton" onclick="newObs()">Nueva observación</div>
