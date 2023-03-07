@@ -146,6 +146,7 @@ input {
     background-color: white;
 }
 
+
 h1 {
     font-size: 18px;
     color: #483D8B;
@@ -224,6 +225,7 @@ div.group {
      border-radius: 10px;
 
     background-color: #F5F5F5;
+
 }
 
 div.group h3 {
@@ -402,4 +404,12 @@ table#ratingtable tr td i:hover {
     text-align: center;
     font-size: 11px;
     font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: "block";
 }

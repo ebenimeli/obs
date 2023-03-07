@@ -41,7 +41,6 @@ function countObs() {
   }
 }
 
-
 /**
  * Read counter
  */
@@ -57,7 +56,6 @@ function getCount() {
   };
   xhr.send();
 } 
-
 getCount();
 
 /**
@@ -85,6 +83,32 @@ updateGrade();
 function playSound(soundName) {
   const audio = new Audio('multimedia/' + soundName + '.mp3');
   audio.play();
+}
+
+
+
+/**
+ * 
+ */
+function showSubject() {
+      var theSubject = document.getElementById("subject").value;
+      switch(theSubject) {
+        case "Informática":
+          theID = "informatica";
+          break;
+        case "Inteligencia Artificial, Programación y Robótica":
+          theID = "informatica";
+          break;
+        default:
+          theID = "";
+      }
+
+      if(theID != "") {
+        var div = document.getElementById(theID);
+        div.className = "group visible";
+      }
+
+      updateHeaders();
 }
 
 
@@ -352,6 +376,10 @@ function getSuggestions(value) {
   return options.filter(option => option.toLowerCase().startsWith(value.toLowerCase()));
 }
 
+/**
+ * 
+ * @param {*} suggestions 
+ */
 function showSuggestions(suggestions) {
   suggestionsContainer.innerHTML = "";
   suggestions.forEach(suggestion => {
@@ -359,6 +387,7 @@ function showSuggestions(suggestions) {
     suggestionElement.textContent = suggestion;
     suggestionElement.addEventListener("click", function() {
       inputSubject.value = suggestion;
+      showSubject();
       suggestionsContainer.innerHTML = "";
     });
     suggestionsContainer.appendChild(suggestionElement);
