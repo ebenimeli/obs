@@ -61,6 +61,8 @@ img.logo {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
+
+    z-index: 1;
 }
 
 #menu {

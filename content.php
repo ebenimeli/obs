@@ -99,9 +99,25 @@
         <div id="infomsg"></div>
     </div>
     
-    <?php $chknum = 6; ?>
-    <?php include_once("php/subjects/informatica.php") ?>
-    <?php include_once("php/subjects/matematicas.php") ?>
+    <?php $chknum = 6;
+
+    $id = "informatica";
+    $name = "Informática";
+    include("php/subjects/addsubject.php");
+ 
+    $id = "matematicas";
+    $name = "Matemáticas";
+    include("php/subjects/addsubject.php");
+
+    $id = "biologia";
+    $name = "Biología";
+    include("php/subjects/addsubject.php");
+
+    $id = "ingles";
+    $name = "Inglés";
+    include("php/subjects/addsubject.php");
+
+    ?>
 
     <h1>Observación</h1>
     <div class="group">
@@ -218,23 +234,23 @@
                 <td>
                     <div id="checkboxes1">
                     <b>Negativos</b><br/><br/>
-                    <input type="checkbox" value="Acumula algunos retrasos. " onchange="updateText()">Acumula algunos retrasos<br/>
-                    <input type="checkbox" value="Acumula muchos retrasos. " onchange="updateText()">Acumula muchos retrasos<br/>
-                    <input type="checkbox" value="Acumula muchas faltas de asistencia. " onchange="updateText()">Acumula muchas faltas de asistencia<br/>
-                    <input type="checkbox" value="Acumula algunas faltas de asistencia. " onchange="updateText()">Acumula algunas faltas de asistencia<br/>
-                    <input type="checkbox" value="No asiste a clase. " onchange="updateText()">No asiste a clase<br/>
-                    <input type="checkbox" value="No muestra interés para ponerse al día tras una ausencia a clase. " onchange="updateText()">No se pone al día tras una ausencia a clase.<br/>
+                    <input type="checkbox" value="Acumula algunos retrasos" onchange="updateText()">Acumula algunos retrasos<br/>
+                    <input type="checkbox" value="Acumula muchos retrasos" onchange="updateText()">Acumula muchos retrasos<br/>
+                    <input type="checkbox" value="Acumula muchas faltas de asistencia" onchange="updateText()">Acumula muchas faltas de asistencia<br/>
+                    <input type="checkbox" value="Acumula algunas faltas de asistencia" onchange="updateText()">Acumula algunas faltas de asistencia<br/>
+                    <input type="checkbox" value="No asiste a clase" onchange="updateText()">No asiste a clase<br/>
+                    <input type="checkbox" value="No muestra interés para ponerse al día tras una ausencia a clase" onchange="updateText()">No se pone al día tras una ausencia a clase.<br/>
 
                 </div>
                 </td>
                 <td>
                     <div id="checkboxes2">
                     <b>Positivos</b><br/><br/>
-                    <input type="checkbox" value="Es puntual. " onchange="updateText()">Es puntual<br/>
-                    <input type="checkbox" value="Siempre es muy puntual. " onchange="updateText()">Es muy puntual<br/>
-                    <input type="checkbox" value="Comunica siempre sus retrasos y faltas de asistencia. " onchange="updateText()">Comunica sus retrasos y faltas de asistencia<br/>
-                    <input type="checkbox" value="Se pone al día sin dificultad con tras una ausencia a clase. " onchange="updateText()">Se pone al día sin dificultad con tras una ausencia<br/>
-                    <input type="checkbox" value="Es responsable y pregunta por el trabajo pendiente si no ha asistido a clase. " onchange="updateText()">Pregunta por el trabajo pendiente si no ha asistido a clase<br/>
+                    <input type="checkbox" value="Es puntual" onchange="updateText()">Es puntual<br/>
+                    <input type="checkbox" value="Siempre es muy puntual" onchange="updateText()">Es muy puntual<br/>
+                    <input type="checkbox" value="Comunica siempre sus retrasos y faltas de asistencia" onchange="updateText()">Comunica sus retrasos y faltas de asistencia<br/>
+                    <input type="checkbox" value="Se pone al día sin dificultad con tras una ausencia a clase" onchange="updateText()">Se pone al día sin dificultad con tras una ausencia<br/>
+                    <input type="checkbox" value="Es responsable y pregunta por el trabajo pendiente si no ha asistido a clase" onchange="updateText()">Pregunta por el trabajo pendiente si no ha asistido a clase<br/>
                     </div>
                 </td>
             </tr>
@@ -248,25 +264,25 @@
                 <td>
                     <div id="checkboxes3">
                     <b>Negativos</b><br/><br/>
-                    <input type="checkbox" value="Tiene un trabajo por entregar. " onchange="updateText()">Tiene un trabajo por entregar<br/>
-                    <input type="checkbox" value="Tiene algunos trabajos por presentar. " onchange="updateText()">Tiene algunos trabajos por presentar<br/>
-                    <input type="checkbox" value="No realiza las actividades según las indicaciones. " onchange="updateText()">No realiza las actividades como se indica<br/>
-                    <input type="checkbox" value="No cuida la presentación de actividades. " onchange="updateText()">No cuida la presentación de actividades<br/>
-                    <input type="checkbox" value="No cumple con los plazos de entrega. " onchange="updateText()">No cumple con los plazos de entrega<br/>
-                    <input type="checkbox" value="No dedica tiempo suficiente a los trabajos. " onchange="updateText()">No dedica tiempo suficiente a los trabajos<br/>
-                    <input type="checkbox" value="No planifica bien la realización de trabajos. " onchange="updateText()">No planifica bien la realización de trabajos<br/>
+                    <input type="checkbox" value="Tiene un trabajo por entregar" onchange="updateText()">Tiene un trabajo por entregar<br/>
+                    <input type="checkbox" value="Tiene algunos trabajos por presentar onchange="updateText()">Tiene algunos trabajos por presentar<br/>
+                    <input type="checkbox" value="No realiza las actividades según las indicaciones" onchange="updateText()">No realiza las actividades como se indica<br/>
+                    <input type="checkbox" value="No cuida la presentación de actividades" onchange="updateText()">No cuida la presentación de actividades<br/>
+                    <input type="checkbox" value="No cumple con los plazos de entrega" onchange="updateText()">No cumple con los plazos de entrega<br/>
+                    <input type="checkbox" value="No dedica tiempo suficiente a los trabajos" onchange="updateText()">No dedica tiempo suficiente a los trabajos<br/>
+                    <input type="checkbox" value="No planifica bien la realización de trabajos" onchange="updateText()">No planifica bien la realización de trabajos<br/>
                     </div>
                 </td>
                 <td>
                     <div id="checkboxes4">
                     <b>Positivos</b><br/><br/>
-                    <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos. " onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
-                    <input type="checkbox" value="Presenta todos los trabajos. " onchange="updateText()">Presenta todos los trabajos<br/>
-                    <input type="checkbox" value="Cumple con las indicaciones de los trabajos. " onchange="updateText()">Cumple con las indicaciones de los trabajos<br/>
-                    <input type="checkbox" value="Cuida mucho la presentación de las actividades. " onchange="updateText()">Cuida mucho la presentación de las actividades<br/>
-                    <input type="checkbox" value="Siempre entrega las tareas y trabajos en plazo. " onchange="updateText()">Siempre entrega las tareas y trabajos en plazo<br/>
-                    <input type="checkbox" value="Las tareas y trabajos demuestran esfuerzo y dedicación. " onchange="updateText()">Las tareas y trabajos demuestran esfuerzo y dedicación<br/>
-                    <input type="checkbox" value="Organiza muy bien la realización de trabajos. " onchange="updateText()">Organiza muy bien la realización de trabajos<br/>
+                    <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos" onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
+                    <input type="checkbox" value="Presenta todos los trabajos" onchange="updateText()">Presenta todos los trabajos<br/>
+                    <input type="checkbox" value="Cumple con las indicaciones de los trabajos" onchange="updateText()">Cumple con las indicaciones de los trabajos<br/>
+                    <input type="checkbox" value="Cuida mucho la presentación de las actividades" onchange="updateText()">Cuida mucho la presentación de las actividades<br/>
+                    <input type="checkbox" value="Siempre entrega las tareas y trabajos en plazo" onchange="updateText()">Siempre entrega las tareas y trabajos en plazo<br/>
+                    <input type="checkbox" value="Las tareas y trabajos demuestran esfuerzo y dedicación" onchange="updateText()">Las tareas y trabajos demuestran esfuerzo y dedicación<br/>
+                    <input type="checkbox" value="Organiza muy bien la realización de trabajos" onchange="updateText()">Organiza muy bien la realización de trabajos<br/>
 
                 </div>
                 </td>
@@ -398,25 +414,25 @@
             <tr>
                 <td>
                     <div id="checkboxes5">
-                    <input type="checkbox" value="Debe dedicar más tiempo al estudio. " onchange="updateText()">Estudiar más<br/>
-                    <input type="checkbox" value="Necesita mejorar la organización. " onchange="updateText()">Mejorar organización<br/>
-                    <input type="checkbox" value="Debe planificar mejor su tiempo. " onchange="updateText()">Planificar su tiempo<br/>
-                    <input type="checkbox" value="Debería prestar más atención en clase. " onchange="updateText()">Prestar más atención en clase<br/>
-                    <input type="checkbox" value="Debería preguntar y participar más en el aula. " onchange="updateText()">Preguntar y participar más<br/>
-                    <input type="checkbox" value="Debería ser más responsable con el trabajo. " onchange="updateText()">Ser más responsable con el trabajo<br/>
-                    <input type="checkbox" value="Puede aprovechar mejor los recursos disponibles. " onchange="updateText()">Aprovechar mejor los recursos<br/>
+                    <input type="checkbox" value="Debe dedicar más tiempo al estudio" onchange="updateText()">Estudiar más<br/>
+                    <input type="checkbox" value="Necesita mejorar la organización" onchange="updateText()">Mejorar organización<br/>
+                    <input type="checkbox" value="Debe planificar mejor su tiempo" onchange="updateText()">Planificar su tiempo<br/>
+                    <input type="checkbox" value="Debería prestar más atención en clase" onchange="updateText()">Prestar más atención en clase<br/>
+                    <input type="checkbox" value="Debería preguntar y participar más en el aula" onchange="updateText()">Preguntar y participar más<br/>
+                    <input type="checkbox" value="Debería ser más responsable con el trabajo" onchange="updateText()">Ser más responsable con el trabajo<br/>
+                    <input type="checkbox" value="Puede aprovechar mejor los recursos disponibles" onchange="updateText()">Aprovechar mejor los recursos<br/>
 
                 </div>
                 </td>
                 <td>
                     <div id="checkboxes6">
-                    <input type="checkbox" value="Conviene que repase los contenidos. " onchange="updateText()">Repasar los contenidos<br/>
-                    <input type="checkbox" value="Debería pedir ayuda cuanto la necesite. " onchange="updateText()">Pedir ayuda cuando la necesite<br/>
-                    <input type="checkbox" value="Debería disponer de un buen ambiente de estudio. " onchange="updateText()">Disponer de un buen ambiente de estudio<br/>
-                    <input type="checkbox" value="Debería descansar y divertirse. " onchange="updateText()">Descansar y divertirse<br/>
-                    <input type="checkbox" value="Aconsejo cambiar algunas técnicas de estudio. " onchange="updateText()">Cambiar técnicas de estudio<br/>
-                    <input type="checkbox" value="Podría establecer mejor sus prioridades de estudio. " onchange="updateText()">Establecer prioridades de estudio<br/>
-                    <input type="checkbox" value="Es importante que sea más constante. " onchange="updateText()">Ser más constante<br/>
+                    <input type="checkbox" value="Conviene que repase los contenidos" onchange="updateText()">Repasar los contenidos<br/>
+                    <input type="checkbox" value="Debería pedir ayuda cuanto la necesite" onchange="updateText()">Pedir ayuda cuando la necesite<br/>
+                    <input type="checkbox" value="Debería disponer de un buen ambiente de estudio" onchange="updateText()">Disponer de un buen ambiente de estudio<br/>
+                    <input type="checkbox" value="Debería descansar y divertirse" onchange="updateText()">Descansar y divertirse<br/>
+                    <input type="checkbox" value="Aconsejo cambiar algunas técnicas de estudio" onchange="updateText()">Cambiar técnicas de estudio<br/>
+                    <input type="checkbox" value="Podría establecer mejor sus prioridades de estudio" onchange="updateText()">Establecer prioridades de estudio<br/>
+                    <input type="checkbox" value="Es importante que sea más constante" onchange="updateText()">Ser más constante<br/>
 
                 </div>
                 </td>

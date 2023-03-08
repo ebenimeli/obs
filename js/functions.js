@@ -105,13 +105,20 @@ function showSubject() {
     case "Matemáticas":
       theID = "matematicas";
       break;
-    default:
+    case "Biología y Geología":
+        theID = "biologia";
+        break;
+    case "Inglés":
+        theID = "ingles";
+        break;
+        default:
       theID = "";
   }
 
   if (theID != "") {
     var div = document.getElementById(theID);
-    //div.className = "group visible";
+    div.className = "group visible";
+
   }
 
   updateHeaders();
@@ -187,7 +194,9 @@ function updateText() {
       msg += document.getElementById("rating_" + i).textContent;
     }
 
-    const ncheckboxes = 8;
+    //const ncheckboxes = 12;
+    const ncheckboxes = document.querySelectorAll('div[id^="checkboxes"]').length;
+
     for (let i = 1; i <= ncheckboxes; i++) {
       strid = "checkboxes" + i.toString();
       var checkboxes_x = document.getElementById(strid);
@@ -251,7 +260,7 @@ function updateCheckboxes(thecheckbox) {
   const inputs = thecheckbox.getElementsByTagName("input");
   for (let i = 0; i < inputs.length; i++) {
     if (inputs[i].checked) {
-      message += inputs[i].value;
+      message += inputs[i].value + ". ";
     }
   }
   return message;

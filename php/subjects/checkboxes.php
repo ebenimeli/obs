@@ -1,31 +1,28 @@
+
 <table>
     <tr>
         <td>
-             <?php $chknum += 1; ?>    
-                <div id="checkboxes<?php echo $chknum; ?>">
-                    <b>Negativos</b><br/><br/>
-                    <input type="checkbox" value="<?php echo $obs1v;?>" onchange="updateText()"><?php echo $obs1; ?><br/>
-                    <input type="checkbox" value="<?php echo $obs2v;?>" onchange="updateText()"><?php echo $obs2;?><br/>
-                    <input type="checkbox" value="<?php echo $obs3v;?>" onchange="updateText()"><?php echo $obs3;?><br/>
-                    <input type="checkbox" value="<?php echo $obs4v;?>" onchange="updateText()"><?php echo $obs4;?><br/>
-                    <input type="checkbox" value="<?php echo $obs5v;?>" onchange="updateText()"><?php echo $obs5;?><br/>
-                    <input type="checkbox" value="<?php echo $obs6v;?>" onchange="updateText()"><?php echo $obs6;?><br/>
-                    <input type="checkbox" value="<?php echo $obs7v;?>" onchange="updateText()"><?php echo $obs7;?><br/>
-                    </div>
-                </td>
-                <td>
-                <?php $chknum += 1; ?>    
-                <div id="checkboxes<?php echo $chknum?>">
-                    <b>Positivos</b><br/><br/>
-                    <input type="checkbox" value="<?php echo $obs8v;?>" onchange="updateText()"><?php echo $obs8; ?><br/>
-                    <input type="checkbox" value="<?php echo $obs9v;?>" onchange="updateText()"><?php echo $obs9;?><br/>
-                    <input type="checkbox" value="<?php echo $obs10v;?>" onchange="updateText()"><?php echo $obs10;?><br/>
-                    <input type="checkbox" value="<?php echo $obs11v;?>" onchange="updateText()"><?php echo $obs11;?><br/>
-                    <input type="checkbox" value="<?php echo $obs12v;?>" onchange="updateText()"><?php echo $obs12;?><br/>
-                    <input type="checkbox" value="<?php echo $obs13v;?>" onchange="updateText()"><?php echo $obs13;?><br/>
-                    <input type="checkbox" value="<?php echo $obs14v;?>" onchange="updateText()"><?php echo $obs14;?><br/>
-                    
+            <?php $chknum += 1; ?>
+            <div id="checkboxes<?php echo $chknum; ?>">
+
+            <?php
+                for ($i = 0; $i < ($vsize/4); $i++) {
+            ?>
+                    <input type="checkbox" value="<?php echo $ot[$i];?>" onchange="updateText()"><?php print($o[$i]); ?><br/>
+            <?php } ?>
+
+            </div>
+        </td>
+        <td>
+            <?php $chknum += 1; ?>    
+            <div id="checkboxes<?php echo $chknum?>">
+            <?php
+                $j = $i;
+                    for ($i = $j; $i < ($vsize/2); $i++) {
+                ?>
+                    <input type="checkbox" value="<?php echo $ot[$i];?>" onchange="updateText()"><?php print($o[$i]); ?><br/>
+                <?php } ?>
                 </div>
-                </td>
-            </tr>
-        </table>
+        </td>
+    </tr>
+</table>
