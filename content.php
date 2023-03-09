@@ -68,6 +68,7 @@
         <br/>
         <br/>
         <div id="suggestions-container"></div>
+        <div id="tmpsub"></div>
         <br/>
         <div class="slider">
             <label for="fader" id="gradelabel">Calificación</label>
@@ -101,21 +102,33 @@
     
     <?php $chknum = 6;
 
-    $id = "informatica";
-    $name = "Informática";
-    include("php/subjects/addsubject.php");
- 
-    $id = "matematicas";
-    $name = "Matemáticas";
-    include("php/subjects/addsubject.php");
+    $subjects = array();
+    /*
+    $subjects[0] = "Informática";
+    $subjects[1] = "Matemáticas";
+    $subjects[2] = "Biología y Geología";
+    $subjects[3] = "Inglés";
+    $subjects[4] = "Lengua";
+    $subjects[5] = "Inteligencia Artifical, Programación y Robótica";
+    */
+    
+    foreach($subjects as $subject) {
+        $name = $subject;
+        include("php/subjects/addsubject.php");
+    }
 
-    $id = "biologia";
-    $name = "Biología";
-    include("php/subjects/addsubject.php");
+    /**
+     * 
+     */
+    function getIDfromName($n) {
+        $n = iconv('UTF-8', 'ASCII//TRANSLIT', $n);    
+        $id = strtolower(preg_replace('/[^a-zA-Z0-9_.-]/', '', $n));
 
-    $id = "ingles";
-    $name = "Inglés";
-    include("php/subjects/addsubject.php");
+        if(strlen($id) > 12){
+            $id = substr($id, 0, 12);
+        }
+        return $id;
+    }
 
     ?>
 

@@ -92,6 +92,14 @@ function playSound(soundName) {
  */
 function showSubject() {
   var theSubject = document.getElementById("subject").value;
+  let theID = theSubject.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s/g, "");
+  theID = theID.toLowerCase();
+  if (theID.length > 12) {
+    theID = theID.substring(0, 12);
+  }
+  //document.getElementById("tmpsub").textContent = theID;
+
+  /*
   switch (theSubject) {
     case "Informática":
       theID = "informatica";
@@ -114,11 +122,13 @@ function showSubject() {
         default:
       theID = "";
   }
+  */
 
   if (theID != "") {
     var div = document.getElementById(theID);
-    div.className = "group visible";
-
+    if( div != null ) {
+      div.className = "group visible";
+    }
   }
 
   updateHeaders();

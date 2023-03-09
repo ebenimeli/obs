@@ -1,4 +1,6 @@
 <?php
+if (file_exists($currentSubject)) {
+
 $archivo = fopen( $currentSubject, 'r' );
 $vector = array();
 while( !feof( $archivo ) ) {
@@ -19,5 +21,6 @@ $i += 2 ) {
     $ot[ $j ] = str_replace("\n", "", $ot[ $j ]);
 
     $j = $j + 1;
+}
 }
 ?>
