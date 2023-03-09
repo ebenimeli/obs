@@ -103,8 +103,10 @@
     <?php $chknum = 6;
 
     $subjects = array();
+    $idsubjects = array();
     
     $subjects[0] = "Informática";
+    $idsubjects[0] = "informatica";
     /*
     $subjects[1] = "Matemáticas";
     $subjects[2] = "Biología y Geología";
@@ -112,12 +114,16 @@
     $subjects[4] = "Lengua";
     $subjects[5] = "Inteligencia Artifical, Programación y Robótica";
     */
+    $nsubjects = count($subjects);
     
-    foreach($subjects as $subject) {
-        $name = $subject;
+    $i = 0;
+
+    for ($i = 0; $i < $nsubjects; $i++) {
+        $name = $subjects[$i];
+        $id = $idsubjects[$i];
         include("php/subjects/addsubject.php");
     }
-
+    
     /**
      * 
      */
@@ -472,7 +478,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-09 21:00:53</div>
+    Actualizado: 2023-03-09 21:27:08</div>
     <!-- Cmd + Shift + I -->
 
   
