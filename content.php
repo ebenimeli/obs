@@ -103,8 +103,9 @@
     <?php $chknum = 6;
 
     $subjects = array();
-    /*
+    
     $subjects[0] = "Informática";
+    /*
     $subjects[1] = "Matemáticas";
     $subjects[2] = "Biología y Geología";
     $subjects[3] = "Inglés";
@@ -471,7 +472,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-08 20:26:04</div>
+    Actualizado: 2023-03-09 21:00:53</div>
     <!-- Cmd + Shift + I -->
 
   
