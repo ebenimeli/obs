@@ -151,6 +151,27 @@
         <input type="radio" id="ft-end" name="choice" value="end" onchange="updateText()">
         <label for="element2">Al final</label>
       </form>
+
+      <br/><br/>
+
+      <div id="ideas-button" class="obsbutton" onclick="toggleIdeas()">Ideas</div>
+      
+      <div id="ideas" style="display: none;">
+      <p>En general, puedes comentar algunos de estos aspectos:</p>
+      <ol>
+        <li>Comentarios sobre el <strong>desempeño</strong> del alumno en la asignatura.</li>
+        <li>Nivel de participación y <strong>compromiso</strong> en clase.</li>
+        <li>Nivel de <strong>comprensión</strong> de los conceptos clave de la asignatura.</li>
+        <li>Nivel de <strong>interés</strong> y motivación por la asignatura.</li>
+        <li>Identificación de las <strong>áreas</strong> específicas en las que el alumno necesita <strong>mejorar</strong>.</li>
+        <li><strong>Fortalezas y debilidades</strong> en la asignatura, identificadas a través de los trabajos realizados.</li>
+        <li>Capacidad para <strong>analizar y resolver</strong> problemas relacionados con la asignatura.</li>
+        <li>Capacidad para <strong>aplicar</strong> los conceptos aprendidos en situaciones prácticas.</li>
+        <li>Nivel de <strong>asistencia</strong> a clase y <strong>participación</strong> en actividades de la asignatura.</li>
+        <li><strong>Plan de acción</strong> establecido para ayudar al alumno a mejorar su rendimiento académico en la asignatura.</li>
+    </ol>
+    <p>En los siguientes apartados tienes más sugerencias.</p>
+    </div>
     </div>
 
     <!--
@@ -478,7 +499,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-09 21:27:08</div>
+    Actualizado: 2023-03-10 14:35:55</div>
     <!-- Cmd + Shift + I -->
 
   

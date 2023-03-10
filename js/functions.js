@@ -462,6 +462,20 @@ function toggleInfo() {
   }
 }
 
+function toggleIdeas() {
+  var info = document.getElementById("ideas");
+  if (info.style.display === "none") {
+    info.style.display = "block";
+    document.getElementById("ideas-button").textContent = "Leído";
+    document.getElementById("ideas-button").backgroundColor = "SteelBlue";
+  } else {
+    info.style.display = "none";
+    document.getElementById("ideas-button").textContent = "Ideas";
+    document.getElementById("ideas-button").backgroundColor = "SteelBlue";
+
+  }
+}
+
 
 function closeSubject(name) {
   var subject = document.getElementById(name);
