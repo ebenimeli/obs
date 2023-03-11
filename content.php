@@ -102,33 +102,36 @@
     
     <?php $chknum = 6;
 
-    $subjects = array();
-    $idsubjects = array();
-    
+    $subjects = [];
+    $idsubjects = [];
+
     $subjects[0] = "Informática";
     $idsubjects[0] = "informatica";
+
     $subjects[1] = "Matemáticas";
     $idsubjects[1] = "matematicas";
-      
+
     /*
     $subjects[2] = "Biología y Geología";
     $subjects[3] = "Inglés";
     $subjects[4] = "Lengua";
     $subjects[5] = "Inteligencia Artifical, Programación y Robótica";
     */
-    $nsubjects = count($subjects);
-    
-    $i = 0;
 
-    for ($i = 0; $i < $nsubjects; $i++) {
-        $name = $subjects[$i];
-        $id = $idsubjects[$i];
+    $nsubjects = count($subjects);
+
+    $index = 0;
+    foreach ($subjects as $subject) {
+        $name = $subject;
+        $id = $idsubjects[$index];
         include("php/subjects/addsubject.php");
+        $index = $index + 1;
     }
     
     /**
      * 
      */
+    /*
     function getIDfromName($n) {
         $n = iconv('UTF-8', 'ASCII//TRANSLIT', $n);    
         $id = strtolower(preg_replace('/[^a-zA-Z0-9_.-]/', '', $n));
@@ -138,6 +141,7 @@
         }
         return $id;
     }
+    */
 
     ?>
 
@@ -501,7 +505,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-10 14:35:55</div>
+    Actualizado: 2023-03-11 10:00:42</div>
     <!-- Cmd + Shift + I -->
 
   
