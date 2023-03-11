@@ -1,0 +1,30 @@
+Opera muy bien
+A la hora de operar utiliza los números naturales, enteros y fracciones de manera correcta, utilizando la jerarquía de las operaciones
+Opera normal
+A la hora de operar utiliza los números naturales, enteros y fracciones bastante bien, utilizando la jerarquía de las operaciones, aunque le convendría practicar un poco más
+Opera mal
+Debe mejorar la forma en la que utiliza los números naturales, enteros y fracciones a la hora de operar. Para ello sería conveniente que practicara este apartado
+Criterios divisibilidad muy bien
+Entiende y utiliza los criterios de divisibilidad, así como la factorización de un número natural en factores primos
+Criterios divisibilidad normal
+Entiende y utiliza los criterios de divisibilidad, así como la factorización de un número natural en factores primos bastante bien, aunque no le vendría mal practicarlo un poco de vez en cuando
+Criterios divisibilidad mal.
+Debe practicar la factorización de los números naturales así como los criterios de divisibilidad. Es fundamental dominarlo para avanzar en el área
+Resolución problemas muy bien
+Plantea y resuelve problemas de manera satisfactoria
+Resolución problemas normal
+A la hora de resolver problemas no siempre consigue resolverlos. Sería conveniente practicar más este apartado
+Resolución problemas mal
+Por lo que refiere a problemas, necesita practicar más la resolución de estos para poder llegar a hacerlo de una manera satisfactoria
+Trabajo en equipo muy bien
+Aporta de manera significativa al equipo, siendo un elemento clave en la resolución de los problemas y en la consecución de los objetivos
+Trabajo en equipo normal
+Mantiene una actitud adecuada frente al trabajo, aunque podría mejorar en su participación y contribución
+Trabajo en equipo mal
+No aporta apropiadamente al equipo, no cumpliendo con sus responsabilidades y tareas
+Interés e implicación muy bien
+Tiene mucha iniciativa y participa activamente en las actividades propuestas. Tiene gran motivación por aprender
+Interés e implicación normal
+Es constante a la hora de realizar las tareas y pide ayuda cuando la necesita y acepta la ayuda dada
+Interés e implicación mal
+Le cuesta mantener el interés en actividades que piden mayor concentración. Muestra poco interés por el aprendizaje y le cuesta implicarse en lo que hacemos en el aula
