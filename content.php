@@ -107,8 +107,10 @@
     
     $subjects[0] = "Informática";
     $idsubjects[0] = "informatica";
-    /*
     $subjects[1] = "Matemáticas";
+    $idsubjects[1] = "matematicas";
+      
+    /*
     $subjects[2] = "Biología y Geología";
     $subjects[3] = "Inglés";
     $subjects[4] = "Lengua";
