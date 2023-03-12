@@ -286,7 +286,7 @@
                     <input type="checkbox" value="Acumula muchas faltas de asistencia" onchange="updateText()">Acumula muchas faltas de asistencia<br/>
                     <input type="checkbox" value="Acumula algunas faltas de asistencia" onchange="updateText()">Acumula algunas faltas de asistencia<br/>
                     <input type="checkbox" value="No asiste a clase" onchange="updateText()">No asiste a clase<br/>
-                    <input type="checkbox" value="No muestra interés para ponerse al día tras una ausencia a clase" onchange="updateText()">No se pone al día tras una ausencia a clase.<br/>
+                    <input type="checkbox" value="No muestra interés para ponerse al día tras una ausencia" onchange="updateText()">No se pone al día tras una ausencia<br/>
 
                 </div>
                 </td>
@@ -296,7 +296,7 @@
                     <input type="checkbox" value="Es puntual" onchange="updateText()">Es puntual<br/>
                     <input type="checkbox" value="Siempre es muy puntual" onchange="updateText()">Es muy puntual<br/>
                     <input type="checkbox" value="Comunica siempre sus retrasos y faltas de asistencia" onchange="updateText()">Comunica sus retrasos y faltas de asistencia<br/>
-                    <input type="checkbox" value="Se pone al día sin dificultad con tras una ausencia a clase" onchange="updateText()">Se pone al día sin dificultad con tras una ausencia<br/>
+                    <input type="checkbox" value="Se pone al día sin dificultad tras una ausencia a clase" onchange="updateText()">Se pone al día sin dificultad tras una ausencia<br/>
                     <input type="checkbox" value="Es responsable y pregunta por el trabajo pendiente si no ha asistido a clase" onchange="updateText()">Pregunta por el trabajo pendiente si no ha asistido a clase<br/>
                     </div>
                 </td>
@@ -312,7 +312,7 @@
                     <div id="checkboxes3">
                     <b>Negativos</b><br/><br/>
                     <input type="checkbox" value="Tiene un trabajo por entregar" onchange="updateText()">Tiene un trabajo por entregar<br/>
-                    <input type="checkbox" value="Tiene algunos trabajos por presentar onchange="updateText()">Tiene algunos trabajos por presentar<br/>
+                    <input type="checkbox" value="Tiene algunos trabajos por presentar" onchange="updateText()">Tiene algunos trabajos por presentar<br/>
                     <input type="checkbox" value="No realiza las actividades según las indicaciones" onchange="updateText()">No realiza las actividades como se indica<br/>
                     <input type="checkbox" value="No cuida la presentación de actividades" onchange="updateText()">No cuida la presentación de actividades<br/>
                     <input type="checkbox" value="No cumple con los plazos de entrega" onchange="updateText()">No cumple con los plazos de entrega<br/>
@@ -323,7 +323,7 @@
                 <td>
                     <div id="checkboxes4">
                     <b>Positivos</b><br/><br/>
-                    <input type="checkbox" value="Presenta todos las tareas, trabajos y proyectos" onchange="updateText()">Presenta todos las tareas, trabajos y proyectos<br/>
+                    <input type="checkbox" value="Presenta todas las tareas, trabajos y proyectos" onchange="updateText()">Presenta todas las tareas, trabajos y proyectos<br/>
                     <input type="checkbox" value="Presenta todos los trabajos" onchange="updateText()">Presenta todos los trabajos<br/>
                     <input type="checkbox" value="Cumple con las indicaciones de los trabajos" onchange="updateText()">Cumple con las indicaciones de los trabajos<br/>
                     <input type="checkbox" value="Cuida mucho la presentación de las actividades" onchange="updateText()">Cuida mucho la presentación de las actividades<br/>
@@ -419,7 +419,7 @@
         </td>
         </tr>
         <tr>
-            <td>Esfuerzo y dedicación</td>
+            <td>Creatividad y pensamiento crítico</td>
             <td>
             <i class="rating_9 far fa-star"></i>
             <i class="rating_9 far fa-star"></i>
@@ -430,7 +430,7 @@
         </td>
         </tr>
         <tr>
-            <td>Creatividad y pensamiento crítico</td>
+            <td>Esfuerzo y dedicación</td>
             <td>
             <i class="rating_10 far fa-star"></i>
             <i class="rating_10 far fa-star"></i>
@@ -505,7 +505,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-11 14:45:30</div>
+    Actualizado: 2023-03-12 09:58:54</div>
     <!-- Cmd + Shift + I -->
 
   
