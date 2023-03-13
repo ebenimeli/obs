@@ -377,7 +377,7 @@ function updateRating_09(value) {
     let a = "";
     switch (value) {
         case 1:
-            a = "Presenta dificultades para entender y aplicar conceptos básicos que requieren pensamiento creativo y crítico.            ";
+            a = "Presenta dificultades para entender y aplicar conceptos básicos que requieren pensamiento creativo y crítico. ";
             break;
         case 2:
             a = "Necesitar una guía y apoyo más intensivos para desarrollar su pensamiento creativo y crítico. ";

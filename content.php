@@ -508,7 +508,7 @@
 </div> <!-- end content -->
 
     <div class="footer">&copy; Enrique Benimeli <a href="http://www.ebenimeli.org" target="_blank">www.ebenimeli.org</a> · 2023 · <span id="obsc"></span> · 
-    Actualizado: 2023-03-12 09:58:54</div>
+    Actualizado: 2023-03-13 21:33:05</div>
     <!-- Cmd + Shift + I -->
 
   
