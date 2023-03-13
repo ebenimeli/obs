@@ -161,6 +161,7 @@ function updateHeaders() {
     str = str + " para la asignatura de " + subject;
   }
   postMsg(str);
+  updateText();
 }
 
 /**
@@ -172,8 +173,10 @@ function updateText() {
     let msg = "";
 
     if (document.getElementById("ft-start").checked) {
-      msg += document.getElementById("freeobs").value + ". ";
-      //msg += "\n";
+      const freeText = document.getElementById("freeobs").value;
+      if(freeText != "") {
+        msg += freeText + ". ";
+      }
     }
 
     const listP = document.querySelector("#positive-list");
@@ -213,10 +216,11 @@ function updateText() {
       msg += updateCheckboxes(checkboxes_x);
     }
 
-
-
     if (document.getElementById("ft-end").checked) {
-      msg += document.getElementById("freeobs").value + ". ";
+      const freeText = document.getElementById("freeobs").value;
+      if(freeText != "") {
+        msg += freeText + ". ";
+      }
     }
 
     var g = document.getElementById("grade").value;

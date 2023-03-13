@@ -118,19 +118,19 @@ function updateRating_01(value) {
     let a = "";
     switch (value) {
         case 1:
-            a = studentName + " tiene una actitud negativa en el aula. ";
+            a = "Tiene una actitud negativa en el aula. ";
             break;
         case 2:
-            a = "La actitud de " + studentName + " puede mejorar. ";
+            a = "Su actitud puede mejorar. ";
             break;
         case 3:
-            a = studentName + " tiene buen comportamiento. ";
+            a = "Tiene buen comportamiento. ";
             break;
         case 4:
-            a = studentName + " muestra muy buena actitud. ";
+            a = "Muestra muy buena actitud. ";
             break;
         case 5:
-            a = "La actitud de " + studentName + " es excelente. ";
+            a = "Su actitud es excelente. ";
             break;          
         default:
             a = "";

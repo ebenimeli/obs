@@ -83,6 +83,9 @@ function newObs() {
 }
 
 function resetInputs() {
+  var outputText = document.getElementById("output");
+  outputText.value = ""; 
+
   var inputsText = document.querySelectorAll('input[type="text"]');
   for (var i = 0; i < inputsText.length; i++) {
     inputsText[i].value = "";
