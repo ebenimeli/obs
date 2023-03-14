@@ -345,24 +345,24 @@ function updateRating_08(value) {
     let a = "";
     switch (value) {
         case 1:
-            //a = studentName + " requiere una atención y seguimiento constantes para aprender y mejorar su desempeño. Deberá esforzarse mucho para superar la asignatura. ";
-            a = "Requiere una atención y seguimiento constantes para aprender y mejorar su desempeño. "
+            a = studentName + " requiere una atención y seguimiento constantes para aprender y mejorar su desempeño. Deberá esforzarse mucho para superar la asignatura. ";
+            //a = "Requiere una atención y seguimiento constantes para aprender y mejorar su desempeño. "
             break;
         case 2:
-            //a = studentName + " necesita motivación y seguimiento adicional para aprender y mejorar su desempeño. Deberá trabajar para superar la asignatura. ";
-            a = "Necesita motivación y seguimiento adicional para aprender y mejorar su desempeño. ";
+            a = studentName + " necesita motivación y seguimiento adicional para aprender y mejorar su desempeño. Deberá trabajar para superar la asignatura. ";
+            //a = "Necesita motivación y seguimiento adicional para aprender y mejorar su desempeño. ";
             break;
         case 3:
-            //a = studentName + " ha mostrado en este segundo trimestre esfuerzo y dedicación en su trabajo académico, pero tiene algunas áreas que necesitan mejora. ";
-            a = "Muestra un nivel adecuado de esfuerzo y dedicación en su trabajo académico, pero tiene algunas áreas que necesitan mejora. ";
+            a = studentName + " ha mostrado en este segundo trimestre esfuerzo y dedicación en su trabajo académico, pero tiene algunas áreas que necesitan mejora. ";
+            //a = "Muestra un nivel adecuado de esfuerzo y dedicación en su trabajo académico, pero tiene algunas áreas que necesitan mejora. ";
             break;
         case 4:
-            //a = studentName + " ha mostrado en este trimestre interés en aprender y mejorar su desempeño. ¡Enhorabuena! ";
-            a = "Muestra interés en aprender y mejorar su desempeño. ";
+            a = studentName + " ha mostrado en este trimestre interés en aprender y mejorar su desempeño. ¡Enhorabuena! ";
+            //a = "Muestra interés en aprender y mejorar su desempeño. ";
             break;
         case 5:
-            //a = studentName + " ha mostrado en este segundo trimestre un alto nivel de esfuerzo y dedicación en su trabajo académico. ¡Enhorabuena! ";
-            a = "Muestra un alto nivel de esfuerzo y dedicación en su trabajo académico. ";
+            a = studentName + " ha mostrado en este segundo trimestre un alto nivel de esfuerzo y dedicación en su trabajo académico. ¡Enhorabuena! ";
+            //a = "Muestra un alto nivel de esfuerzo y dedicación en su trabajo académico. ";
             break;          
         default:
             a = "";

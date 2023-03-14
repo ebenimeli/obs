@@ -111,8 +111,11 @@
     $subjects[1] = "Informática 1";
     $idsubjects[1] = "informatica1";
 
-    $subjects[2] = "Matemáticas 1";
-    $idsubjects[2] = "matematicas1";
+    $subjects[2] = "Informática 2";
+    $idsubjects[2] = "informatica2";
+
+    $subjects[3] = "Matemáticas 1";
+    $idsubjects[3] = "matematicas1";
 
     /*
     $subjects[2] = "Biología y Geología";
