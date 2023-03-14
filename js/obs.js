@@ -147,6 +147,8 @@ function clearRating(ratingItem, stars) {
   for (var i = 0; i < stars.length; i++) {
     stars[i].className = starClassInactive;
   }
+  document.getElementById(ratingItem).textContent = "";
+
 }
 
 window.onbeforeunload = function () {

@@ -161,7 +161,6 @@ function updateHeaders() {
     str = str + " para la asignatura de " + subject;
   }
   postMsg(str);
-  updateText();
 }
 
 /**
@@ -237,8 +236,6 @@ function updateText() {
     tmp = document.getElementById("output").value;
     document.getElementById("output").value = msg;
     updateChars();
-    updateHeaders();
-    //translateText();
   }
 }
 
